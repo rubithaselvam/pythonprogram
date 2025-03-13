@@ -2,7 +2,7 @@ tuple = (10, 32, 4, 78,67)
 print("tuple:", tuple)
 
 # creating a mixed tuple
-mixed_tuple = (5, "rubi", 265.54, "false")
+mixed_tuple = (5, "rubi", 265.54, False)
 print("mixed_tuple:", mixed_tuple)
 print(type(mixed_tuple))
 
