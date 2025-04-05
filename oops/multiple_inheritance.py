@@ -15,7 +15,7 @@ class person(friend1,friend2):
         print("I am happy to see you")
 
 rubitha = person() # which OBJECT name is given that name only give to tha below functions
-rubitha.person2()
+rubitha.person2() # bracket is must here for all oops program
 rubitha.person1()
 rubitha.people()
 
