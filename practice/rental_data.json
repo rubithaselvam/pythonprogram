@@ -1,0 +1,17 @@
+{
+    "car": {
+        "total": 6,
+        "available": 6,
+        "rented": 0
+    },
+    "bike": {
+        "total": 4,
+        "available": 4,
+        "rented": 0
+    },
+    "truck": {
+        "total": 5,
+        "available": 5,
+        "rented": 0
+    }
+}
