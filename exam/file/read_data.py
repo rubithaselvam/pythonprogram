@@ -21,7 +21,7 @@ class people:
     Family_History_of_Diabetes = int
     Previous_Gestational_Diabetes = int
 
-def diabetics_data():
+def read_and_convert_diabetics_data_to_object():
     list = []
     count = 0
     for line in open("diabetes_dataset.csv"):
@@ -31,7 +31,7 @@ def diabetics_data():
         peopleArr = line.split(',')
 
         if len(peopleArr) < 22:
-            print(f"Skipping incomplete line {count}: {peopleArr}")
+            print(f"{count}: {peopleArr}")
             count += 1
             continue
         objpeople = people()
@@ -56,8 +56,9 @@ def diabetics_data():
         objpeople.Smoking_Status = peopleArr[19]
         objpeople.Family_History_of_Diabetes = peopleArr[20]
         objpeople.Previous_Gestational_Diabetes = peopleArr[21]
+        list.append(objpeople)
 
-diabetics_data()
+read_and_convert_diabetics_data_to_object()
 
 
 
