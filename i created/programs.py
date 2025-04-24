@@ -33,8 +33,8 @@ my_function()
 # LCM and GCD
 import math
 a,b = map(int,input("enter a value: ").split())
-gcd = math.gcd(a,b) # input number of both can be divided by dame number 6,8 both number can divide by 2
-lcm = (a * b) // gcd # it multiple the given number abd the multipled number is divided by gcd number 48 divided by 2
+gcd = math.gcd(a,b) # input number of both can be divided by same number 6,8 both number can divide by 2
+lcm = (a * b) // gcd # it multiply the given number and the multiple number is divided by gcd number 48 divided by 2
 print(f"GCD: {gcd}, LCM: {lcm}")
 
 
