@@ -88,7 +88,7 @@ while True:
             print("account not found")
 
     elif choice == "6":
-        print("Exiting program.")
+        print("Bank closed, visit tomorrow.")
         break
 
     else:
